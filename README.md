@@ -5,9 +5,9 @@
   You can find the "Frequently Asked Questions" section in [FAQ.md](FAQ.md)
 
 ## Pre
-  This documentation assumes ZERO knowledge about computers, i expect you use it for things like:
+  This documentation assumes ZERO knowledge about computers, i expect you use computers for things like:
   - Check other people's instagram page, and then talk shit about them with your friends.
-  - Trying to download movies but getting frustrated before you understand how to do it.
+  - Trying to download movies but getting frustrated a lot before you understand how to do it.
   - Watch netflix (the previous step is relevant here).
   - Using email.
   - Do video calls to help your mother/grandma use netflix or fixing something on her phone.
@@ -88,8 +88,8 @@ node index.js
 
 # BUT
 
-If you want to run it like a pro, you should use `npm tasks`, it does the same because it is just a alias, the definition is located in the `package.json` file under the `scripts` property.\
-In the task list you can find 3 previously created tasks:
+If you want to run it like a pro, you should use `npm tasks`, it does the same because is just an alias, the definition is located in the `package.json` file under the `scripts` property.\
+In the task list you will find 3 previously created tasks:
  - start
  - start-nodemon
  - test
@@ -113,24 +113,26 @@ This will translate to `npm run start`
 
 ## npm tasks
 
- **start**: This is pretty standard, generally this is the one that the creator of a project added to being able to just run our application, in this case is:
+ **start**: This is pretty standard, generally this is the one that the author of a project added to be able to just run our application, in this case is:
 
   ```bash
   node .
   ```
-this is the same as
+same as
 
 ```bash
 node index.js
 ```
 
-because `node` looks for "index.js" when the name if not specified (defaults to `index.js`).
+because `node` looks for "index.js" when the name is not specified (defaults to `index.js`).
 
-**start-nodemon**: I created this one to run the project using `nodemon`, this autorestarts the application in case the code is modified, so you don't need to do it manually, ***I highly recommend to use this while you are making changes**, you still need to refresh your browser when changes are made, the browser can't know if there's a change.
+**start-nodemon**: I created this one to run the project using `nodemon`, this autorestarts the application in case the code is modified, so you don't need to do it manually, ***I highly recommend to use this while you are making changes**, you still need to refresh your browser when changes are made, the browser is not able to know if there's a change.
 
 ***I expect to add a browser autoreload feature in the future so you can be even more lazy than now***
 
-**test**: This is supposed to run tests (yes, you can have automatic tests that run and tell you if you broke something), but i haven't added any yet.
+**test**: This is supposed to run tests (yes, you can have automatic tests that run and tell you if you broke something), but i haven't added any.
+
+# Motivation and references
 
 The objective of this project is to serve as a introduction to web development,
 and allow you to see in action basic concepts like:
