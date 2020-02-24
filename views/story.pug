@@ -1,0 +1,19 @@
+extends layout
+block content
+  div#story-wrapper
+    h1= film.Title
+    h3 Year: #{f(film.Year)}
+    h3 Rated: #{f(film.Rated)}
+    h3 Duration: #{f(film.Runtime)}
+    h3 Director: #{f(film.Diretor)}
+    h3 Writer: #{f(film.Writer)}
+    h3 Language: #{f(film.Language)}
+    h3 Movie/Series: #{f(film.Type)}
+    h3 Actors:
+    ul
+      - const actorsArr = film.Actors.split(",").map(a => a.trim())
+      each actor in actorsArr
+          li= actor
+
+    img#film-image(src=film.Images[0])
+    p.plot #{'"'} #{film.Plot} #{'"'}

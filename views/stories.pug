@@ -1,0 +1,7 @@
+extends layout
+block content
+  ul#film-list
+    each story in filmList
+      li
+        a.film-link(href=`stories/${story.id}`)
+          =story.Title

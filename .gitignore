@@ -1,0 +1,39 @@
+# Lets ignore node_modules (we don't want to push dependencies to our repo).
+
+node_modules/
+jspm_packages/
+
+# Environment files.
+
+.env
+.env.test
+
+
+# Junk that the OS likes to add everywhere.
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+# Logs too.
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime stuff.
+
+pids
+*.pid
+*.seed
+*.pid.lock
+
+

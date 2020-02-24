@@ -1,0 +1,10 @@
+extends layout
+block content
+  form#login-form(action="/login", method="post")
+    div.form-field
+      label(for="username") User
+      input(type="text", name="username")
+    div.form-field
+      label(for="password") Password
+      input(type="password", name="password")
+    input(type="submit", value="Login")
