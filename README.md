@@ -88,7 +88,7 @@ node index.js
 
 # BUT
 
-If you want to run it like a pro, you should use `npm tasks`, it does literally the same because it is just a alias, the definition is located in the `package.json` file under the `scripts` property.\
+If you want to run it like a pro, you should use `npm tasks`, it does the same because it is just a alias, the definition is located in the `package.json` file under the `scripts` property.\
 In the task list you can find 3 previously created tasks:
  - start
  - start-nodemon
