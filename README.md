@@ -84,7 +84,7 @@ To run the code you just enter the folder of the project with the terminal and r
 ```bash
 node index.js
 ```
-***this is literally running the index.js file directly***
+***this is ->literally<- running the index.js file directly***
 
 # BUT
 
