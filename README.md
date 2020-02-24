@@ -12,6 +12,37 @@
   - Using email.
   - Do video calls to help your mother/grandma use netflix or fixing something on her phone.
 
+# Motivation and references
+
+The objective of this project is to serve as a introduction to web development,
+and allow you to see in action basic concepts like:
+
+ - Webserver.
+ - Endpoints.
+ - Sessions.
+ - Cookies.
+ - Login lifecycle.
+ - HTML rendering using a engine (pug).
+
+I avoided any need for a persistance layer (database) and i mocked some data to show it.
+
+### TLRD;
+
+This code runs a web page where you need to login and you can see a page with a link, that link gives you a list of links of movie/series information.
+
+This implementation is basic, doesn´t use stuff like databases to store data, i´m storing that data directly in the code so you can see it clearly.
+
+
+Related documentation:
+ - [Pug](https://pugjs.org/)
+ - [Express](https://expressjs.com/)
+ - [Passport](http://www.passportjs.org/)
+ - [Passport-local](http://www.passportjs.org/packages/passport-local/)
+ - [Express Cookie Parser](https://github.com/expressjs/cookie-parser)
+ - [Express Body Parser](https://github.com/expressjs/body-parser)
+
+***This is not intented for real world use, probably it doesn´t have a lot of nasty bugs, but i literally tested it for 2 minutes***
+
 ## Install instructions
 
 To run this you need to install nodejs and git
@@ -131,37 +162,6 @@ because `node` looks for "index.js" when the name is not specified (defaults to 
 ***I expect to add a browser autoreload feature in the future so you can be even more lazy than now***
 
 **test**: This is supposed to run tests (yes, you can have automatic tests that run and tell you if you broke something), but i haven't added any.
-
-# Motivation and references
-
-The objective of this project is to serve as a introduction to web development,
-and allow you to see in action basic concepts like:
-
- - Webserver.
- - Endpoints.
- - Sessions.
- - Cookies.
- - Login lifecycle.
- - HTML rendering using a engine (pug).
-
-I avoided any need for a persistance layer (database) and i mocked some data to show it.
-
-### TLRD;
-
-This code runs a web page where you need to login and you can see a page with a link, that link gives you a list of links of movie/series information.
-
-This implementation is basic, doesn´t use stuff like databases to store data, i´m storing that data directly in the code so you can see it clearly.
-
-
-Related documentation:
- - [Pug](https://pugjs.org/)
- - [Express](https://expressjs.com/)
- - [Passport](http://www.passportjs.org/)
- - [Passport-local](http://www.passportjs.org/packages/passport-local/)
- - [Express Cookie Parser](https://github.com/expressjs/cookie-parser)
- - [Express Body Parser](https://github.com/expressjs/body-parser)
-
-***This is not intented for real world use, probably it doesn´t have a lot of nasty bugs, but i literally tested it for 2 minutes***
 
 # Directory Structure
 
