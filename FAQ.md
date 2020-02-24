@@ -28,7 +28,7 @@ I'm not native, english is my second language and I'm improving it everyday, I'm
 
 ## So if you are from a spanish talking country, why do you write documentation in english?
 
-I'm hoping thi can be useful for the biggest ammount of people posible.
+I'm hoping this can be useful for the biggest ammount of people posible.
 
 ## The documentation will be available in Spanish at some moment?
 
